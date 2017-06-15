@@ -2,3 +2,6 @@ language: c
 
 before_install:
  - chmod +x configure
+
+script:
+ - gcc main.c
